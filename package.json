@@ -1,0 +1,24 @@
+{
+  "name": "craigslist-hound",
+  "version": "0.1.0",
+  "description": "Given a list of cities (subdomains), hound Craigslist and email new results.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/briangonzalez/craigslist-hound.git"
+  },
+  "author": "Brian Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "sleep": "~1.1.8",
+    "lowdb": "~0.4.1",
+    "commander": "~2.3.0",
+    "lodash-node": "~2.4.1",
+    "jsdom": "~1.0.0-pre.6",
+    "cli-color": "~0.3.2",
+    "nodemailer": "~1.3.0"
+  }
+}

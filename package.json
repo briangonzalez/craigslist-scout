@@ -1,19 +1,21 @@
 {
-  "name": "craigslist-hound",
+  "name": "craigslist-scout",
   "version": "0.1.0",
-  "description": "Given a list of cities (subdomains), hound Craigslist and email new results.",
+  "description": "Given a list of cities (subdomains), seartch Craigslist at a given internal and email new results.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin" : {
+    "cl-scout": "./index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/briangonzalez/craigslist-hound.git"
+    "url": "git://github.com/briangonzalez/craigslist-scout.git"
   },
   "author": "Brian Gonzalez",
   "license": "MIT",
   "dependencies": {
-    "sleep": "~1.1.8",
     "lowdb": "~0.4.1",
     "commander": "~2.3.0",
     "lodash-node": "~2.4.1",

@@ -32,7 +32,7 @@ Example Query
 
 To search Craigslist in LA, SLO, San Diego, Fresno, Bako, OC, Inland Empire, and Santa Barbara ever 0.5 minutes for Tacomas and send new results to `foo@bar.com` and `bar@baz.com` from `foo@baz.com`:
 
-```
+```bash
 cl-scout  --interval 0.5 \
           --cities slo,losangeles,sandiego,fresno,bakersfield,orangecounty,inlandempire,santabarbara \
           --query "cto?maxAsk=10000&query=tacoma&sort=date" \

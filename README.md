@@ -1,7 +1,7 @@
 craigslist-scout
 ----------------
 
-A dead simple, command line tool to query multiple Craigslist cities (subdomains) and email yourself the results.
+A dead simple command line tool to query multiple Craigslist cities (subdomains) and email out the results.
 
 Usage
 -----
@@ -23,14 +23,14 @@ Usage
 An Example Query
 ----------------
 
-To search Craigslist in LA, SLO, San Diego, Fresno, Bako, OC, Inland Empire, and Santa Barbara ever 0.5 minutes for Tacomas and send new results to `her@briangonzalez.org` and `him@briangonzalez.org` from `me@briangonzalez.org`:
+To search Craigslist in LA, SLO, San Diego, Fresno, Bako, OC, Inland Empire, and Santa Barbara ever 0.5 minutes for Tacomas and send new results to `foo@bar.com` and `bar@baz.com` from `foo@baz.com`:
 
 ```
 cl-scout  --interval 0.5 \
           --cities slo,losangeles,sandiego,fresno,bakersfield,orangecounty,inlandempire,santabarbara \
           --query "cto?maxAsk=10000&query=tacoma&sort=date" \
-          --recipients "her@briangonzalez.org,him@briangonzalez.org" \
-          --sender 'me@briangonzalez.org:foobar'
+          --recipients "foo@bar.com,bar@baz.com" \
+          --sender 'foo@baz.com:foobar'
 ```
 
 ## Author

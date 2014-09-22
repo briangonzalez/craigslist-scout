@@ -1,7 +1,7 @@
 {
   "name": "craigslist-scout",
   "version": "0.1.0",
-  "description": "Given a list of cities (subdomains), seartch Craigslist at a given internal and email new results.",
+  "description": "A dead simple command line tool to query multiple Craigslist cities (subdomains) and email out the results.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

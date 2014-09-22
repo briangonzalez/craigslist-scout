@@ -30,7 +30,7 @@ Usage
 Example Query
 -------------
 
-To search Craigslist in LA, SLO, San Diego, Fresno, Bako, OC, Inland Empire, and Santa Barbara ever 0.5 minutes for Tacomas and send new results to `foo@bar.com` and `bar@baz.com` from `foo@baz.com`:
+To search Craigslist in LA, SLO, San Diego, Fresno, Bako, OC, Inland Empire, and Santa Barbara every 30 seconds for "tacoma" and send new results to `foo@bar.com` and `bar@baz.com` from `foo@baz.com`:
 
 ```bash
 cl-scout  --interval 0.5 \
@@ -39,6 +39,12 @@ cl-scout  --interval 0.5 \
           --recipients "foo@bar.com,bar@baz.com" \
           --sender 'foo@baz.com:foobar'
 ```
+
+Can't I achieve the same with IFTT?
+-----------------------------------
+
+IFTT uses Craigslist's RSS feed to check for new results, but the problem with that is that Craiglist's RSS feed only updates every hour. I found that I was missing items by 30 minutes, and someone else would snatch the item up.
+
 
 ## Author
 | ![twitter/brianmgonzalez](http://gravatar.com/avatar/f6363fe1d9aadb1c3f07ba7867f0e854?s=70](http://twitter.com/brianmgonzalez "Follow @brianmgonzalez on Twitter") |

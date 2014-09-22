@@ -1,6 +1,6 @@
 {
   "name": "craigslist-scout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A dead simple command line tool to query multiple Craigslist cities (subdomains) and email out the results.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/briangonzalez/craigslist-scout.git"
+    "url": "git@github.com:briangonzalez/craigslist-scout.git"
   },
   "author": "Brian Gonzalez",
   "license": "MIT",

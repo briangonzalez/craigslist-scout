@@ -3,6 +3,13 @@ craigslist-scout
 
 A dead simple command line tool to query multiple Craigslist cities (subdomains) and email out the results.
 
+Installation
+------------
+
+```shell
+$ npm install craigslist-scout -g
+```
+
 Usage
 -----
 
